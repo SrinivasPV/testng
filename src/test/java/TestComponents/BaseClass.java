@@ -28,6 +28,7 @@ public class BaseClass {
 	@BeforeMethod
 	public void preConditions()
 	{
+		//browser check
 		String Browser= System.getProperty("browser")!=null?System.getProperty("browser"):"Chrome";
 		if(Browser.equalsIgnoreCase("chrome"))
 		{
